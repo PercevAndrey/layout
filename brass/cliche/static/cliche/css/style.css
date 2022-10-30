@@ -59,13 +59,49 @@ h1,h2,h3,h4,h5,h6 {
     font-size: inherit;
     font-weight: 400;
 }
-/*--------------------*/
+/*--------Конец обнуления------------*/
 
-.example-block {
-    width: 40%;
+.container {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    line-height: 2;
+    font-size: 12px;
+    width: 1230px;
+    margin: 50px;
     border: 1px solid #000;
 }
+.one-div {
+    width: 600px;
+    margin: 0 0 30px;
+}
 
-.example-image {
-    min-height: 40px;
+.two-span {
+    display: block;
+}
+.three-a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    margin: 0 0 30px;
+}
+
+.four-div {
+    padding: 0 0 30px;
+}
+.five-div {
+    display: inline;
+    margin: 0 30px 0 0;
+}
+.six-p{
+    display: inline;
+}
+
+.seven-span {
+    display: block;
+    padding: 0 30px 0;
+    margin: 30px;
+}
+
+.eight-span {
+    display: block;
+    padding: 30px 0;
 }
